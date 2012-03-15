@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ProfilePage</title>
+  <%= stylesheet_link_tag    "application", "960",:media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="container_16">
+	<div class = "grid_16 pull_1">
+	<img src ="/assets/home.jpg" />		 
+	</div>
+<%= yield %>
+</div>
+<!-- end .container_16 -->
+</body>
+</html>

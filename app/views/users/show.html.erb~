@@ -1,0 +1,62 @@
+<body bgcolor="#F3F3F3">
+
+
+	<div class="clear">&nbsp;</div> 
+	<div class="grid_4 pull_1"  style = " border: 1px solid black; border-color:#C8E2E3;">
+		<div id="profile_name" style ="color:#78CDE1;text-align:center;">		
+		<%= @user.name %><br>
+		 <%= @user.genre %><br>
+		<%= @user.location %><br>
+		</div>
+		<div id="profile_image" style="padding-left:10px;">
+		<center><%= image_tag @user.avatar.url(:thumb) %></center>
+		</div>
+		<div id="profile_message" style = "border:1px solid black;border-color:#C8E2E3;text-align:center;font-size:12px">
+		    Message | + Connections
+		</div>
+		<table style = "font-size:12px"><tr><td>*services listed here</td><td> *in a table</td></tr>
+		  	<tr><td>*as bullet points</td><td>*veryneatly</td></tr>
+		</table>
+		<div id="band_members" style = "border:1px solid black;border-color:#C8E2E3;">
+		<table style = "font-size:12px">
+			<th><u>BandMembers</u></th>
+			<th>|Connections</th>
+			<tr><td>BandMembers</td></tr>
+			<tr>
+				<td><img src="/assets/profile.gif" height = "40" width = "70" alt ="image_here"/></td>
+				<td>MemberName<br>Job/Instruments</td>
+			</tr>
+			<tr>
+				<td><img src="/assets/profile.gif" height = "40" width = "70" alt ="image_here"/></td>
+				<td>MemberName<br>Job/Instruments</td>
+			</tr>
+			<tr>
+				<td><img src="/assets/profile.gif" height = "40" width = "70" alt ="image_here"/></td>
+				<td>MemberName<br>Job/Instruments</td>
+			</tr>
+			<tr>
+				<td><img src="/assets/profile.gif" height = "40" width = "70" alt ="image_here"/></td>
+				<td>MemberName<br>Job/Instruments</td>
+			</tr>
+		</table>
+		</div>
+		
+	</div>
+	<div class="grid_7 pull_1" >
+		<center><a href="#" style="font-size:20px">About</a>|<a href="#" style="font-size:20px">Portfolio</a>|<a href="#" style="font-size:20px">Ziqqu Report</a> </center>
+		<div id="text_box"  style = "width: 420px; height:400px; border: 1px solid black;border-color:#C8E2E3; font-color:">
+			<br><br>
+
+			<center>This is for textbox...........</center>
+			<br><br><hr>
+		<div id="add_another_topic">
+			<br><br>
+			<center><h4>AddAnotherTopic</h4></center>
+			<br><br>
+		</div>
+		</div>
+	</div>
+	<div class="sidebar"  style = "position-right:10px;width:600px; border: 1px solid black;">
+		 <center><a href="#" style="font-size:17px">Music</a>|<a href="#" style="font-size:17px">Photos</a>|<a href="#" style="font-size:17px">Videos</a>|<a href="#" style="font-size:17px">Touring/events</a>
+	</div>
+
